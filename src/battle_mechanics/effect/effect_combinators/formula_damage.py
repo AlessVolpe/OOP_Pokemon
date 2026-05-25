@@ -9,3 +9,4 @@ class FormulaDamage(EffectInterface):
         self.damage = damage
 
     def apply(self) -> None:
+        pass
