@@ -5,12 +5,11 @@ from pydantic import BaseModel
 
 T = TypeVar('T')
 
-
-class ConditionInterface(metaclass=ABCMeta, base=BaseModel):
+class ConditionInterface[T](BaseModel, metaclass=ABCMeta):
     @classmethod
     def __subclasshook__(cls, subclass):
         return (hasattr(subclass, 'check') and
                 callable(subclass.check))
 
-    def check(self, condition: T) -> bool:
+    def check(self) -> bool:
         pass
