@@ -8,4 +8,4 @@ class NoEffect(EffectInterface):
         super().__init__()
 
     def apply(self) -> None:
-        pass
+        print("It had no effect...")

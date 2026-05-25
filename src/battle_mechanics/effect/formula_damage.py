@@ -1,9 +1,10 @@
 from math import floor
 
 from battle_mechanics.effect.effect_interface import EffectInterface
+from battle_mechanics.number.number_interface import NumberInterface
 from battle_mechanics.pokemon import Pokemon
 from battle_mechanics.turn import Turn
-from helpers.rand_generators import critical_generator, damage_die_roll
+from helpers.secrets_generator import critical_generator, damage_die_roll
 
 
 class FormulaDamage(EffectInterface):
