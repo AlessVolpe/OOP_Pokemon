@@ -5,6 +5,7 @@ from pydantic import BaseModel
 
 T = TypeVar('T')
 
+
 class ConditionInterface[T](BaseModel, metaclass=ABCMeta):
     @classmethod
     def __subclasshook__(cls, subclass):

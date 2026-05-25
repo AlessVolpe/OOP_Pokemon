@@ -10,5 +10,3 @@ class SequenceCombinator(EffectInterface):
 
     def apply(self) -> None:
         map(apply, self.effects)
-
-

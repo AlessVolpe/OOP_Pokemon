@@ -1,7 +1,7 @@
 from typing import Any
 
-from battle_mechanics.target import TargetInterface
 from battle_mechanics.condition.condition_interface import ConditionInterface
+from battle_mechanics.target import TargetInterface
 
 
 class BattleCondition[Turn](ConditionInterface):

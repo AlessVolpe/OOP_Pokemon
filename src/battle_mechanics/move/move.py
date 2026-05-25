@@ -19,6 +19,7 @@ class Move(MoveInterface):
         pass
 
     def __init__(self, move_name, move_type, power, pp, move_subcategory, attempt):
+        super().__init__()
         self.move_name = move_name
         self.move_type = move_type
         self.power = power

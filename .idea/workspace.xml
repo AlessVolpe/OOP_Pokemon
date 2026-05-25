@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b5580073-30fc-4024-b7f2-16b59004b577" name="Changes" comment="ci: update .gitignore" />
+    <list default="true" id="b5580073-30fc-4024-b7f2-16b59004b577" name="Changes" comment="ci: update workspace.xml">
+      <change afterPath="$PROJECT_DIR$/src/helpers/rand_generators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/battle_mechanics/effect/effect_combinators/formula_damage.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/battle_mechanics/effect/effect_combinators/formula_damage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/battle_mechanics/move/move.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/battle_mechanics/move/move.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/battle_mechanics/pokemon.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/battle_mechanics/pokemon.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,6 +67,7 @@
       <option name="presentableId" value="Default" />
       <updated>1779716922465</updated>
       <workItem from="1779716923498" duration="13391000" />
+      <workItem from="1779746288773" duration="2123000" />
     </task>
     <task id="LOCAL-00001" summary="ci: added .gitignore">
       <option name="closed" value="true" />
@@ -94,7 +101,15 @@
       <option name="project" value="LOCAL" />
       <updated>1779729907579</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="ci: update workspace.xml">
+      <option name="closed" value="true" />
+      <created>1779746309376</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1779746309376</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,6 +131,17 @@
     <MESSAGE value="feat: initial structure, highly partial and full of placeholders" />
     <MESSAGE value="fix: implemented interfaces correctly" />
     <MESSAGE value="fix: correct inteface name" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: correct inteface name" />
+    <MESSAGE value="ci: update workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="ci: update workspace.xml" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/battle_mechanics/pokemon.py</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

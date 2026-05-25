@@ -1,4 +1,4 @@
-from battle_mechanics.condition.condition_interface import ConditionInterface, T
+from battle_mechanics.condition.condition_interface import ConditionInterface
 
 
 class BothCondition[T](ConditionInterface):
