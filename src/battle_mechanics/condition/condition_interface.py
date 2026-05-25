@@ -6,7 +6,7 @@ from pydantic import BaseModel
 T = TypeVar('T')
 
 
-class MoveInterface(metaclass=ABCMeta, base=BaseModel):
+class ConditionInterface(metaclass=ABCMeta, base=BaseModel):
     @classmethod
     def __subclasshook__(cls, subclass):
         return (hasattr(subclass, 'check') and
