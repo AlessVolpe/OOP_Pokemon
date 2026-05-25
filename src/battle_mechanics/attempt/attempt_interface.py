@@ -3,7 +3,7 @@ from abc import ABCMeta
 from pydantic import BaseModel
 
 
-class AttemptInterface(metaclass=ABCMeta, base=BaseModel):
+class AttemptInterface(BaseModel, metaclass=ABCMeta):
     @classmethod
     def __subclasshook__(cls, subclass):
         return (hasattr(subclass, 'resolve_attempt') and

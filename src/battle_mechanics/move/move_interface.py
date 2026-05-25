@@ -3,7 +3,7 @@ from abc import ABCMeta
 from pydantic import BaseModel
 
 
-class MoveInterface(metaclass=ABCMeta, base=BaseModel):
+class MoveInterface(BaseModel, metaclass=ABCMeta):
     @classmethod
     def __subclasshook__(cls, subclass):
         return (hasattr(subclass, 'resolve_move') and
