@@ -27,4 +27,9 @@ class MoveSubcategory(Enum):
 
 
 class StatusEffect(Enum):
-    pass
+    burn = 0
+    freeze = 1
+    paralysis = 2
+    poison = 3
+    sleep = 4
+    confusion = 5
