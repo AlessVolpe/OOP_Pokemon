@@ -1,25 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b5580073-30fc-4024-b7f2-16b59004b577" name="Changes" comment="fix: correct inteface name">
-      <change afterPath="$PROJECT_DIR$/src/battle_mechanics/condition/comparators/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/battle_mechanics/condition/comparators/for_lifter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/battle_mechanics/condition/comparators/generic_comparators.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/battle_mechanics/condition/comparators/number_comparators.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/battle_mechanics/condition/comparators/pokemon_comparators.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/battle_mechanics/condition/comparators/turn_comparators.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/battle_mechanics/effect/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/battle_mechanics/effect/effect_combinators/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/battle_mechanics/effect/effect_combinators/condition_combinator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/battle_mechanics/effect/effect_combinators/no_effect.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/battle_mechanics/effect/effect_combinators/sequence_combinator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/battle_mechanics/effect/effect_interface.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/battle_mechanics/attempt/attempt_interface.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/battle_mechanics/attempt/attempt_interface.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/battle_mechanics/condition/condition_interface.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/battle_mechanics/condition/condition_interface.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/battle_mechanics/move/move_interface.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/battle_mechanics/move/move_interface.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/battle_mechanics/pk_enums.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/battle_mechanics/pk_enums.py" afterDir="false" />
-    </list>
+    <list default="true" id="b5580073-30fc-4024-b7f2-16b59004b577" name="Changes" comment="ci: update .gitignore" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,26 +17,26 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5,
-  "fromUser": false
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5,
+  &quot;fromUser&quot;: false
+}</component>
   <component name="ProjectId" id="3EDd9PlwKIb3zeOTgWKJpUysNdh" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "git-widget-placeholder": "main",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\aless\PycharmProjects\oop_pokemon\src\battle_mechanics" />
