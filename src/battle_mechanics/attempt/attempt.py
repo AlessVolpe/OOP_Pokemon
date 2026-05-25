@@ -9,7 +9,6 @@ class Attempt(AttemptInterface):
     on_miss: EffectInterface
     after: EffectInterface
 
-    @staticmethod
     def resolve_attempt(self) -> None:
         pass
 

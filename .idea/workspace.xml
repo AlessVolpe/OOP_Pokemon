@@ -1,30 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b5580073-30fc-4024-b7f2-16b59004b577" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/oop_pokemon.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/battle_mechanics/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/battle_mechanics/attempt/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/battle_mechanics/attempt/attempt.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/battle_mechanics/attempt/attempt_interface.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/battle_mechanics/attempt/cascade.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/battle_mechanics/attempt/combo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/battle_mechanics/condition/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/battle_mechanics/move/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/battle_mechanics/move/move.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/battle_mechanics/move/move_interface.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/battle_mechanics/move/with_applicability.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/battle_mechanics/move/with_precondition.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/battle_mechanics/pk_enums.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/battle_mechanics/pokemon.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/battle_mechanics/turn.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/helpers/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/helpers/type_helpers.py" afterDir="false" />
+    <list default="true" id="b5580073-30fc-4024-b7f2-16b59004b577" name="Changes" comment="feat: initial structure, highly partial and full of placeholders">
+      <change afterPath="$PROJECT_DIR$/src/battle_mechanics/condition/condition_interface.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/battle_mechanics/attempt/attempt.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/battle_mechanics/attempt/attempt.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/battle_mechanics/attempt/attempt_interface.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/battle_mechanics/attempt/attempt_interface.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/battle_mechanics/attempt/cascade.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/battle_mechanics/attempt/cascade.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/battle_mechanics/attempt/combo.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/battle_mechanics/attempt/combo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/battle_mechanics/move/move.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/battle_mechanics/move/move.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/battle_mechanics/move/move_interface.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/battle_mechanics/move/move_interface.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/battle_mechanics/move/with_applicability.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/battle_mechanics/move/with_applicability.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/battle_mechanics/move/with_precondition.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/battle_mechanics/move/with_precondition.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/battle_mechanics/pokemon.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/battle_mechanics/pokemon.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/battle_mechanics/turn.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/battle_mechanics/turn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/helpers/type_helpers.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/type_helpers.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,11 +72,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1779716922465</updated>
-      <workItem from="1779716923498" duration="7997000" />
+      <workItem from="1779716923498" duration="8684000" />
     </task>
+    <task id="LOCAL-00001" summary="ci: added .gitignore">
+      <option name="closed" value="true" />
+      <created>1779729438330</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1779729438330</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat: initial structure, highly partial and full of placeholders">
+      <option name="closed" value="true" />
+      <created>1779729480061</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1779729480061</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ci: added .gitignore" />
+    <MESSAGE value="feat: initial structure, highly partial and full of placeholders" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: initial structure, highly partial and full of placeholders" />
   </component>
 </project>

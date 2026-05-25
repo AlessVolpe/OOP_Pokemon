@@ -6,7 +6,6 @@ class MoveWithApplicability(MoveInterface):
     condition: ConditionInterface[Pokemon]
     move: MoveInterface
 
-    @staticmethod
     def resolve_move(self) -> None:
         pass
 

@@ -7,4 +7,7 @@ class AttemptInterface(metaclass=ABCMeta, base=BaseModel):
     @classmethod
     def __subclasshook__(cls, subclass):
         return (hasattr(subclass, 'resolve_attempt') and
-                callable(subclass.attempt))
+                callable(subclass.resolve_attempt))
+
+    def resolve_attempt(self) -> None:
+        pass

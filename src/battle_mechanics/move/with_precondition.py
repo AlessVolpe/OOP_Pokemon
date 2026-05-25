@@ -5,7 +5,6 @@ class MoveWithPrecondition(MoveInterface):
     condition: ConditionInterface[Turn]
     move: MoveInterface
 
-    @staticmethod
     def resolve_move(self) -> None:
         pass
 

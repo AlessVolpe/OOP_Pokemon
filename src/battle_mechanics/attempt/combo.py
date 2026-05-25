@@ -7,8 +7,7 @@ class Combo(AttemptInterface):
     hits: NumberInterface
     every: EffectInterface
 
-    @staticmethod
-    def resolve_attempts(self) -> None:
+    def resolve_attempt(self) -> None:
         pass
 
     def __init__(self, animation, accuracy, hits, every):

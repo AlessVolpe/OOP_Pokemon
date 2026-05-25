@@ -15,7 +15,6 @@ class Move(MoveInterface):
     move_subcategory: Optional[MoveSubcategory]
     attempt: AttemptInterface
 
-    @staticmethod
     def resolve_move(self) -> None:
         pass
 
