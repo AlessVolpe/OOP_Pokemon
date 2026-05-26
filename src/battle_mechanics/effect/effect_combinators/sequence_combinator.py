@@ -9,4 +9,4 @@ class SequenceCombinator(EffectInterface):
         self.effects = effects
 
     def apply(self) -> None:
-        map(apply, self.effects)
+        [effect.apply() for effect in self.effects]

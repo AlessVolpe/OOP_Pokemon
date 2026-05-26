@@ -1,4 +1,4 @@
-from abc import ABCMeta
+from abc import ABCMeta, abstractmethod
 from typing import TypeVar
 
 from pydantic import BaseModel
@@ -12,5 +12,6 @@ class ConditionInterface[T](BaseModel, metaclass=ABCMeta):
         return (hasattr(subclass, 'check') and
                 callable(subclass.check))
 
+    @abstractmethod
     def check(self) -> bool:
         pass

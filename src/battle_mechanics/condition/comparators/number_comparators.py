@@ -5,6 +5,7 @@ class LessThanCondition[NumberInterface](ConditionInterface):
     condition: NumberInterface
 
     def __init__(self, condition: NumberInterface) -> None:
+        super().__init__()
         self.condition = condition
 
     def check(self) -> bool:
@@ -15,6 +16,7 @@ class GreaterThanCondition[NumberInterface](ConditionInterface):
     condition: NumberInterface
 
     def __init__(self, condition: NumberInterface) -> None:
+        super().__init__()
         self.condition = condition
 
     def check(self) -> bool:

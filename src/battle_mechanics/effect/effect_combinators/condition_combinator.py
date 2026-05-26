@@ -6,8 +6,8 @@ from battle_mechanics.turn import Turn
 
 
 class ConditionCombinator(EffectInterface):
-    on_pass: Optional[EffectInterface] = None
-    on_fail: Optional[EffectInterface] = None
+    on_pass: Optional[EffectInterface]
+    on_fail: Optional[EffectInterface]
     on_fail: EffectInterface
     condition: ConditionInterface[Turn]
 

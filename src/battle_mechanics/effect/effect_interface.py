@@ -1,4 +1,4 @@
-from abc import ABCMeta
+from abc import ABCMeta, abstractmethod
 
 from pydantic import BaseModel
 
@@ -9,5 +9,6 @@ class EffectInterface(BaseModel, metaclass=ABCMeta):
         return (hasattr(subclass, 'apply') and
                 callable(subclass.apply))
 
+    @abstractmethod
     def apply(self) -> None:
         pass

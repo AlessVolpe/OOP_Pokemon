@@ -1,19 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b5580073-30fc-4024-b7f2-16b59004b577" name="Changes" comment="feat: add damage calculation">
-      <change afterPath="$PROJECT_DIR$/src/battle_mechanics/effect/faint.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/battle_mechanics/number/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/battle_mechanics/number/between.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/battle_mechanics/number/number.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/battle_mechanics/number/number_combinators/product.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/battle_mechanics/number/number_combinators/quotient.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/battle_mechanics/number/number_combinators/sum.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/battle_mechanics/number/number_interface.py" afterDir="false" />
+    <list default="true" id="b5580073-30fc-4024-b7f2-16b59004b577" name="Changes" comment="feat: implement number interface">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/battle_mechanics/effect/effect_combinators/formula_damage.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/battle_mechanics/effect/formula_damage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/battle_mechanics/effect/effect_combinators/no_effect.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/battle_mechanics/effect/no_effect.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/helpers/rand_generators.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/secrets_generator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/battle_mechanics/attempt/attempt.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/battle_mechanics/attempt/attempt.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/battle_mechanics/attempt/attempt_interface.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/battle_mechanics/attempt/attempt_interface.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/battle_mechanics/attempt/cascade.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/battle_mechanics/attempt/cascade.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/battle_mechanics/attempt/combo.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/battle_mechanics/attempt/combo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/battle_mechanics/condition/comparators/for_lifter.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/battle_mechanics/condition/comparators/for_lifter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/battle_mechanics/condition/comparators/generic_comparators.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/battle_mechanics/condition/comparators/generic_comparators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/battle_mechanics/condition/comparators/number_comparators.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/battle_mechanics/condition/comparators/number_comparators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/battle_mechanics/condition/comparators/pokemon_comparators.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/battle_mechanics/condition/comparators/pokemon_comparators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/battle_mechanics/condition/comparators/turn_comparators.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/battle_mechanics/condition/comparators/turn_comparators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/battle_mechanics/condition/condition_interface.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/battle_mechanics/condition/condition_interface.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/battle_mechanics/effect/effect_combinators/condition_combinator.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/battle_mechanics/effect/effect_combinators/condition_combinator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/battle_mechanics/effect/effect_combinators/sequence_combinator.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/battle_mechanics/effect/effect_combinators/sequence_combinator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/battle_mechanics/effect/effect_interface.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/battle_mechanics/effect/effect_interface.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/battle_mechanics/effect/faint.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/battle_mechanics/effect/faint.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/battle_mechanics/effect/formula_damage.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/battle_mechanics/effect/formula_damage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/battle_mechanics/effect/no_effect.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/battle_mechanics/effect/no_effect.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/battle_mechanics/move/with_applicability.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/battle_mechanics/move/with_applicability.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/battle_mechanics/move/with_precondition.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/battle_mechanics/move/with_precondition.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/battle_mechanics/number/between.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/battle_mechanics/number/between.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/battle_mechanics/number/number.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/battle_mechanics/number/number.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/battle_mechanics/number/number_combinators/product.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/battle_mechanics/number/number_combinators/product.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/battle_mechanics/number/number_combinators/quotient.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/battle_mechanics/number/number_combinators/quotient.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/battle_mechanics/number/number_combinators/sum.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/battle_mechanics/number/number_combinators/sum.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/battle_mechanics/number/number_interface.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/battle_mechanics/number/number_interface.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/helpers/secrets_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/secrets_generator.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,19 +53,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\aless\PycharmProjects\oop_pokemon\src\battle_mechanics\number" />
@@ -77,7 +91,8 @@
       <updated>1779716922465</updated>
       <workItem from="1779716923498" duration="13391000" />
       <workItem from="1779746288773" duration="3575000" />
-      <workItem from="1779749997981" duration="558000" />
+      <workItem from="1779749997981" duration="902000" />
+      <workItem from="1779799134683" duration="1801000" />
     </task>
     <task id="LOCAL-00001" summary="ci: added .gitignore">
       <option name="closed" value="true" />
@@ -127,7 +142,15 @@
       <option name="project" value="LOCAL" />
       <updated>1779748496965</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="feat: implement number interface">
+      <option name="closed" value="true" />
+      <created>1779750875363</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1779750875363</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,6 +174,7 @@
     <MESSAGE value="fix: correct inteface name" />
     <MESSAGE value="ci: update workspace.xml" />
     <MESSAGE value="feat: add damage calculation" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add damage calculation" />
+    <MESSAGE value="feat: implement number interface" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: implement number interface" />
   </component>
 </project>

@@ -1,13 +1,14 @@
 from typing import Any
 
 from battle_mechanics.condition.condition_interface import ConditionInterface
-from battle_mechanics.target import TargetInterface
+from battle_mechanics.target.target_interface import TargetInterface
 
 
 class BattleCondition[Turn](ConditionInterface):
     turn: Turn
 
     def __init__(self, turn: Turn) -> None:
+        super().__init__()
         self.turn = turn
 
     def check(self) -> bool:

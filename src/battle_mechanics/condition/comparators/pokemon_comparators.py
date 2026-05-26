@@ -7,6 +7,7 @@ class HasTypeCondition[Pokemon](ConditionInterface):
     immune_types: frozenset[PkType] = frozenset([0, 1, 2, 3, 4, 7, 8, 16, 17])
 
     def __init__(self, condition: Pokemon) -> None:
+        super().__init__()
         self.condition = condition
 
     def check(self) -> bool:
@@ -18,6 +19,7 @@ class HasMajorStatusEffectCondition[Pokemon](ConditionInterface):
     condition: Pokemon
 
     def __init__(self, condition: Pokemon) -> None:
+        super().__init__()
         self.condition = condition
 
     def check(self) -> bool:

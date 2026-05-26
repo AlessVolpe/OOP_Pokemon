@@ -1,7 +1,5 @@
 from battle_mechanics.effect.effect_interface import EffectInterface
-from battle_mechanics.pokemon import Pokemon
 from battle_mechanics.target.defender import Defender
-
 
 
 class Faint(EffectInterface):

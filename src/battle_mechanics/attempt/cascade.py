@@ -8,4 +8,5 @@ class Cascade(AttemptInterface):
         pass
 
     def __init__(self, attempts: list[AttemptInterface]):
+        super().__init__()
         self.attempts = attempts
